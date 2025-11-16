@@ -1,5 +1,4 @@
-/* ===== RESET ===== */
-* {
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,7 +20,6 @@ body {
   100% { background-position: 0% 50%; }
 }
 
-/* ===== HEADER ===== */
 .header {
   position: fixed;
   width: 100%;
@@ -76,7 +74,7 @@ body {
   width: 100%;
 }
 
-/* ===== SECTIONS ===== */
+
 .section {
   padding: 6rem 5%;
   opacity: 0;
@@ -98,7 +96,6 @@ body {
   letter-spacing: 1px;
 }
 
-/* ===== HOME ===== */
 .home__container {
   display: flex;
   flex-direction: column-reverse;
@@ -142,7 +139,6 @@ body {
   box-shadow: 0 0 40px rgba(0, 170, 255, 0.25);
 }
 
-/* ===== BUTTON ===== */
 .button {
   display: inline-block;
   position: relative;
@@ -171,7 +167,6 @@ body {
   left: 100%;
 }
 
-/* ===== SKILLS ===== */
 .skills__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -193,7 +188,6 @@ body {
   box-shadow: 0 0 25px rgba(0, 170, 255, 0.15);
 }
 
-/* ===== CONTACT ===== */
 .contact__container {
   display: grid;
   gap: 2rem;
@@ -229,7 +223,6 @@ body {
   border: 1px solid rgba(0, 170, 255, 0.4);
 }
 
-/* ===== FOOTER ===== */
 .footer {
   text-align: center;
   padding: 1.5rem;
@@ -238,7 +231,6 @@ body {
   background: #0a0a0a;
 }
 
-/* ===== RESPONSIVE ===== */
 @media screen and (min-width: 768px) {
   .home__container {
     flex-direction: row;
